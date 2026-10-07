@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Einladung zum Kinderflohmarkt – Kinderkleidung, Spielzeug, Bücher und kleine Schätze.">
+  <meta name="theme-color" content="#fff8ef">
+  <title>Kinderflohmarkt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="decor decor-a" aria-hidden="true"></div><div class="decor decor-b" aria-hidden="true"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Kinderflohmarkt Startseite"><span class="brand-dot">●</span> Kinderflohmarkt</a>
+    <a class="nav-link" href="#infos">Alle Infos</a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Kleine Größen · große Schätze</p>
+        <h1 id="title">Kinderflohmarkt</h1>
+        <p class="subtitle" id="subtitle"></p>
+        <p class="intro" id="intro"></p>
+        <div class="hero-actions">
+          <a class="button" href="#infos">Wann & wo?</a>
+          <span class="admission" id="admission"></span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Verspielte Illustration mit Kinderkleidung">
+        <div class="sun"></div>
+        <div class="card-art">
+          <div class="hanger">⌒</div>
+          <div class="shirt">★</div>
+          <div class="sock sock-one"></div><div class="sock sock-two"></div>
+          <span class="spark s1">✦</span><span class="spark s2">✿</span><span class="spark s3">●</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section" id="infos">
+      <div class="wrap">
+        <div class="section-heading"><p class="eyebrow">Save the date</p><h2>Kommt vorbei!</h2></div>
+        <div class="info-grid">
+          <article class="info-card"><span class="icon">◷</span><p class="label">Datum & Uhrzeit</p><h3 id="date"></h3><p id="time"></p></article>
+          <article class="info-card"><span class="icon">⌖</span><p class="label">Ort</p><h3 id="location"></h3><p id="address"></p></article>
+          <article class="info-card"><span class="icon">♡</span><p class="label">Darauf könnt ihr euch freuen</p><h3>Stöbern & entdecken</h3><p>Kinderkleidung, Spielsachen, Bücher und liebevoll weitergegebene Lieblingsstücke.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why wrap">
+      <div><p class="eyebrow">Schön für alle</p><h2>Zu klein geworden?<br>Für jemand anderen genau richtig.</h2></div>
+      <div class="why-copy"><p>Beim Flohmarkt bekommen gut erhaltene Dinge ein zweites Zuhause. Das ist nachhaltig, spart Geld und macht beim Stöbern einfach Spaß.</p><p class="note">Tipp: Bringt gern eine Stofftasche mit.</p></div>
+    </section>
+
+    <section class="contact">
+      <div class="wrap contact-inner">
+        <div><p class="eyebrow">Noch Fragen?</p><h2>Wir freuen uns auf euch.</h2><p>Fragen zum Flohmarkt beantwortet das Organisationsteam gern per E-Mail.</p></div>
+        <a class="button button-light" id="emailLink" href="#"><span id="emailText"></span> →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer"><span id="organizer"></span><span>Mit ♡ für kleine & große Schatzsucher</span></footer>
+  <script src="config.js"></script><script src="script.js"></script>
+</body>
+</html>
